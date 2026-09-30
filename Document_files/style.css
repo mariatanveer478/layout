@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+}
+/* header */
+.header{
+    background-color: black;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+    .logo{
+        width: 30%;
+        position: relative;
+        padding: 5px;
+    
+        
+    }
+    .logo img{
+    width: 165px;
+}
+
+
+    .logo, .menu{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+
+.menu{
+text-align: center;
+    width: 60%;
+    color:white;
+    
+
+}
+
+.menu .link ul li{
+
+    list-style: none;
+    display: inline;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+.link, .btn{
+    display: inline-block;
+}
+
+.btn-one{
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding:15px 15px;
+    border:1px solid white;
+    margin-right: 10px;
+
+
+}
+.btn-two{
+border-radius: 25px;
+    background-color: red;
+    padding:18px 22px;
+    border:1px solid red;
+  color: white;
+}
+.btn-two i{
+    background-color: white;
+    color:red
+    border-radius: 10px;
+    padding:5px;
+    margin-left: 5px;
+}
+/* header-end */
+/* ====section-one=== */
+.img{
+    width:100%;
+    
+}
+.img img{
+    width:100%;
+
+}
+/* section-one-end */
+/* section-two-start */
+.two{
+    margin: 0%;
+    background-color: black;
+    
+}
+.two h1{
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    color:white;
+     font-size:40px ;
+     font-family: "Spectral", serif;
+    }
+
+    .two h1 span{
+        font-family: "Black Ops One", system-ui;
+        font-weight: bolder;
+
+
+    }
+    .two h2{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+    }
+    .two h3{
+        text-align: center;
+        color: white;
+        font-size: 15px;
+    }
+    /* section two end */
+    /*  section third satrt */
+    body{
+        background-color: black;
+    }
+    .cards{
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+    justify-content: center;
+    text-align: center;
+   margin-top: 20px;
+    
+    }
+    .card1 .box{
+        background-color: white;
+    }
+    .card2 .box{
+        background-color: white;
+    }
+    .card3 .box{
+        background-color: white;
+    }
+  .card4 .box{
+    background-color: white;
+  }
+  .select{
+    margin-top: 50px;
+background-color:transparent;
+color: white;
+border-radius: 25px;
+padding: 15px 15px;
+  }
+
+  
+    

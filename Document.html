@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    
+
+
+<link rel="stylesheet" href="./Document_files/style.css"><link rel="stylesheet" href="./Document_files/all.min.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Document_files/css2" rel="stylesheet"></head>
+<body>
+    <div class="main">
+        <div class="header">
+            <!-- header -->
+             <div class="logo">
+                <img src="./Document_files/logo.webp" alt="pic">
+             </div>
+             <div class="menu">
+                <div class="link">
+                    <ul>
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>publications</li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <button class="btn-one">Get A Franchise</button>
+                    <button class="btn-two">Order Online<i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+
+
+             </div>
+
+        </div>
+        <!-- header-close -->
+         <!-- Section-one -->
+          <div class="img">
+            <img src="./Document_files/image main.webp" alt="">
+</div>
+<!-- section-one end -->
+<!-- section two start -->
+ <div class="two">
+
+    <h1>Welcome To <span>Salt n paper</span></h1>
+    <h2>Restrurants! Our Brands</h2>
+    <br>
+    <h3>Please click our brands below for further information, reservations or to order online!</h3>
+
+
+    </div>
+
+ </div>
+ <!-- section two end -->
+  <!-- section third start -->
+  <div class="cards">
+    <div class="card1">
+        <div class="box">
+        <img src="./Document_files/one.webp" alt="pic"></div>
+        <button class="select">Order Now</button>
+  </div>
+
+    
+    <div class="card2">
+        <div class="box">
+        <img src="./Document_files/two.webp" alt="pic "></div>
+
+        <button class="select">Order Now</button>
+    </div>
+    
+    <div class="card3">
+        <div class="box">
+        <img src="./Document_files/three.webp" alt="pic"></div>
+       <button class="select">Order Now</button>
+    </div>
+
+    
+    <div class="card4">
+        <div class="box">
+        <img src="./Document_files/four.webp" alt="pic"></div>
+        <button class="select">Order Now</button>
+        </div>
+
+    
+  </div>
+  <!-- section third end -->
+    
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
